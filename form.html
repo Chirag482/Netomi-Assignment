@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <p class="form-heading">Can you please provide your personal details?</p>
+      <div class="details-container">
+        <label>Name</label>
+        <input class="input" type="text" id="name" />
+      </div>
+      <div class="details-container">
+        <label>Date of birth</label>
+        <input class="input" type="date" id="dob" />
+      </div>
+      <div class="details-container">
+        <label>Email address</label>
+        <input class="input" type="email" id="email" />
+      </div>
+      <div class="details-container">
+        <label>Contact number</label>
+        <input class="input" type="number" id="phone" />
+      </div>
+      <div class="details-container">
+        <label>Country</label>
+        <select class="input" id="country" onchange="selectCountry()">
+          <option value="" selected="selected">-- Select Country --</option>
+        </select>
+      </div>
+      <div id="stateDiv" class="details-container">
+        <label>State</label>
+        <select class="input" id="state">
+          <option value="" selected="selected">
+            -- Select Country First --
+          </option>
+        </select>
+      </div>
+      <div class="btn-container">
+        <button class="btn" id="submitBtn">SUBMIT</button>
+      </div>
+    </div>
+  </body>
+  <script src="formScript.js"></script>
+</html>

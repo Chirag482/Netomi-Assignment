@@ -1,0 +1,58 @@
+label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.errorText {
+  text-align: center;
+}
+.container {
+  display: flex;
+  height: 90vh;
+  max-height: 800px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iframe {
+  border: 2px solid red;
+  width: 30%;
+  height: 80%;
+}
+
+.form {
+  width: 90%;
+  padding: 10px 20px;
+  margin: 0rem auto;
+  background-color: #ebebeb;
+  height: 100%;
+}
+
+.form-heading {
+  font-size: 1.2rem;
+}
+
+.details-container {
+  margin: 0.9rem 0.5rem;
+}
+
+.input {
+  width: 100%;
+  height: 1.8rem;
+  border: 1px solid rgb(206, 206, 250);
+  outline-color: rgb(206, 206, 250);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(89, 187, 89);
+  color: white;
+}
